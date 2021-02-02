@@ -473,9 +473,10 @@ button[type="submit"]{ border:none; background:none; font-weight:600;}
 .home-contact_form input {
     border: none;
     border-bottom: 2px solid #fff;
+    border-radius: 0;
     background: none;
     color: #fff !important;
-    margin: 30px 0;
+    margin: 15px 0;
     font-weight: 500;
     padding-left: 10px;
 }
@@ -491,11 +492,12 @@ button[type="submit"]{ border:none; background:none; font-weight:600;}
 }
 
 .home-contact_form select {
-    margin: 30px 0;
+    margin: 15px 0;
     border: none;
     border-bottom: 2px solid #fff;
     background: none;
     padding-left: 10px;
+    height: 48px;
 }
 
 /* FORM */
