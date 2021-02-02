@@ -341,7 +341,7 @@ button[type="submit"]{ border:none; background:none; font-weight:600;}
 .process-card_text p {
     font-size: 16px;
     color: #506473;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .process-card .card-1::before {
