@@ -470,6 +470,7 @@ button[type="submit"]{ border:none; background:none; font-weight:600;}
 .home-contact_form {
     background: #1B5581;
     color: #fff;
+    padding: 3rem 0;
 }
 
 .home-contact_form h3 {
