@@ -454,7 +454,11 @@ button[type="submit"]{ border:none; background:none; font-weight:600;}
 
 .cta-card h3 {
     font-size: 32px;
-    font-weight: 600;
+    font-weight: 500;
+}
+
+.cta-card_arrow img{
+    width: 10%;;
 }
 
 /* CTA */
@@ -467,7 +471,7 @@ button[type="submit"]{ border:none; background:none; font-weight:600;}
 
 .home-contact_form h3 {
     font-size: 32px;
-    font-weight: 600;
+    font-weight: 500;
 }
 
 .home-contact_form input {
