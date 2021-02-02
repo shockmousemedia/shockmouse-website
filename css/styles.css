@@ -54,9 +54,6 @@ button[type="submit"]{ border:none; background:none; font-weight:600;}
 .int-hero .header{ position:relative;}
 .int-hero .header .logo{ height:40px;}
 .int-hero .header .menu-btn .bar{ background:#fff;}
-.int-hero .video{ width:100%; height:100%; float:left; position:absolute; left:0; top:0; z-index:-1;}
-.int-hero .video video{ min-width:100%; min-height:100%; position:absolute; left:0; top:0;}
-.int-hero .video:after{content:''; width:100%; height:100%; position:absolute; left:0; top:0; background:#2f312f; opacity:0.6;}
 .int-hero .table-middle{ position:relative; z-index:3;}
 .int-hero .table-middle h2{ font-size:140px; font-weight:600; color:#fff;}
 .int-hero .table-middle h6{ max-width:800px; display:inline-block; line-height:40px; color:#fff; font-size:30px; font-family:'Roboto Condensed', sans-serif;}
@@ -68,6 +65,7 @@ button[type="submit"]{ border:none; background:none; font-weight:600;}
     float: right;
     cursor: pointer;
     position: relative;
+    z-index: 11;
 }
 
 .menu-btn .menu-circle-wrap {
@@ -177,17 +175,17 @@ button[type="submit"]{ border:none; background:none; font-weight:600;}
 }
 
 /* NAVIGATION */
-.navigation{ width:100%; height:100%; background:#2f312f; position:fixed; left:0; top:0; z-index:9;}
+.navigation{ width:100%; height:100%; background:#f7f7f7; position:fixed; left:0; top:0; z-index:9;}
 .navigation {-webkit-transform: scale(1.20);  -ms-transform: scale(1.20); transform: scale(1.20); opacity:0;  visibility:hidden;}
 .navigation{-webkit-transition: all 0.3s ease;-moz-transition: all 0.3s ease;transition: all 0.3s ease;}
 .navigation.active{-webkit-transform: scale(1);  -ms-transform: scale(1); transform: scale(1); opacity:1; visibility:visible;}
 .navigation .video{ width:100%; height:100%; position:absolute; left:0; top:0; z-index:1; overflow:hidden;}
 .navigation .video video{ width:100%; min-height:100%; float:left; opacity:0.4;}
 .navigation .inner{ text-align:center; position:relative; z-index:2;}
-.navigation .inner ul{ width:100%; float:left;}
+.navigation .inner ul{ width:100%; float:left; list-style-type: none; text-align: center; padding-left: 0; padding: 20rem 0;}
 .navigation .inner ul li{ width:100%; float:left; padding:10px 0; opacity:0; transform: translateY(55px);}
 .navigation .inner ul li{-webkit-transition: all 0.3s ease;-moz-transition: all 0.3s ease;transition:all 0.3s ease;}
-.navigation .inner ul li a{ font-size:40px; color:#fff; font-weight:600; position:relative;}
+.navigation .inner ul li a{ font-size:28px; color:#000; font-weight:600; position:relative;}
 .navigation .inner ul li a span{ width:0; height:2px; position:absolute; left:0; bottom:10px; background:#fff;}
 .navigation .inner ul li a span{-webkit-transition: all 0.2s ease;-moz-transition: all 0.2s ease;transition: all 0.2s ease;transition-duration: 400ms;-webkit-transition-duration: 400ms;transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);-webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1)}
 .navigation .inner ul li a:hover{ text-decoration:none;}
