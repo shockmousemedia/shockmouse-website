@@ -17,6 +17,14 @@
                 $("#navigation").load("../templates/navigation.html");
             });
 
+            /* Footer Link */
+
+            $(function () {
+                $("#footer").load("../templates/footer.html");
+            });
+
+
+
             // Hamburger Menu
             $('.menu-btn').on('click', function (e) {
                 $(".menu-btn").toggleClass("active");
