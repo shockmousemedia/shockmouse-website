@@ -499,6 +499,7 @@ button[type="submit"]{ border:none; background:none; font-weight:600;}
     margin: 15px 0;
     border: none;
     border-bottom: 2px solid #fff;
+    border-radius: 0;
     background: none;
     padding-left: 10px;
     height: 48px;
