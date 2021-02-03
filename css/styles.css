@@ -664,6 +664,45 @@ button[type="submit"]{ border:none; background:none; font-weight:600;}
 
 /* CONTACT */
 
+/* ABOUT */
+.about-hero {
+    height: 75vh;
+    background-image: url("../images/about-hero.png");
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    text-align: center;
+}
+
+.transition-text h5{
+    font-size: 24px;
+}
+
+.transition-text em {
+    color: #013a67;
+}
+
+.about-main-container {
+    display: flex;
+}
+
+.about-main img {
+    width: 100%;
+    order: 1;
+}
+
+.partners-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.partner-icon {
+    flex-basis: 50%;
+    padding: 15px 0;
+}
+/* ABOUT */
+
 /* FOOTER NEW */
 body {
     background: #fbfbfd;
