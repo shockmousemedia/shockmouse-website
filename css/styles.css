@@ -530,8 +530,8 @@ button[type="submit"] {
 .process-card_text::before {
     content: "";
     background-size: contain;
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
     position: absolute;
     top: 0;
     left: 0;
