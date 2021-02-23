@@ -474,6 +474,11 @@ button[type="submit"] {
     background: #f8f8f8;
 }
 
+.services .col-md-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .services .service-list {
     padding: 8rem 0;
 }
@@ -490,7 +495,7 @@ button[type="submit"] {
 }
 
 .services .service-card_text h3 {
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 600;
     z-index: 99;
 }
