@@ -638,28 +638,44 @@ button[type="submit"] {
     background: #F8F8F8;
 }
 
-.blog-img_container img {
-    width: 100%;
+.blog-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.blog article {
-    margin: 50px 0;
-    background: #fff;
-    box-shadow: 0 0.125rem 1.25rem 0 rgba(0, 0, 0, 0.1);
+.home-blog_header {
+    flex-basis: 100%;
+}
+
+.home-blog_header h1 {
+    font-size: 20px;
+}
+
+.blog-img_container img {
+    width: 100%;
     border-radius: 5px;
 }
 
+.blog article {
+    margin: 5px 0;
+    border-radius: 5px;
+    flex-basis: 45%;
+    max-width: 45%;
+}
+
 .blog .blog-post_text {
-    padding: 15px 10px;
+    padding: 10px 5px;
 }
 
 .blog article h5 {
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 500;
 }
 
 .blog article p {
-    font-size: 16px;
+    font-size: 13px;
+    font-weight: 500;
 }
 
 .blog article a {
