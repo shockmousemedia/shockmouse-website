@@ -544,11 +544,13 @@ button[type="submit"] {
 }
 
 .process-card_text h3 {
-    font-weight: 600;
+    font-weight: 500;
+    font-size: 13px;
+    text-transform: uppercase;
 }
 
 .process-card_text p {
-    font-size: 15px;
+    font-size: 13px;
     color: #223547;
     font-weight: 400;
     line-height: 1.75;
