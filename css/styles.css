@@ -492,9 +492,6 @@ button[type="submit"] {
     position: absolute;
     top: -12rem;
     width: 50%;
-}
-
-.services-secondary_icon  {
     font-size: 136px !important;
     font-weight: 700;
     opacity: .05;
