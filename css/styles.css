@@ -471,7 +471,7 @@ button[type="submit"] {
 
 /* SERVICES */
 .services {
-    background: #f8f8f8;
+    background: #fff;
 }
 
 .services .col-md-4 {
@@ -601,51 +601,50 @@ button[type="submit"] {
 .case-study_container {
     background: #fff;
     box-shadow: 0 1px 16px 0 rgb(0 0 0 / 10%);
+    padding: 0 !important;
+}
+
+.case-study_img {
+    width: 100%;
 }
 
 .case-study img {
-    width: 75%;
-    padding: 5rem 0;
+    width: 100%;
 }
 
 .case-study_text {
     text-align: left;
     height: auto;
+    padding: 40px 15px;
 }
 
 .case-study_text span {
-    color: #013A67;
+    /*color: #013A67;*/
     font-weight: 500;
 }
 
 .case-study_text h4 {
-    font-size: 18px;
-    font-weight: 400;
+    font-size: 20px;
+    font-weight: 600;
     line-height: 1.75;
 }
 
 .case-study_text p {
-    font-size: 13px;
+    font-size: 15px;
     padding: 20px 0;
     color: #223547;
     line-height: 1.75;
+    font-weight: 400;
 }
 
+.case-study_link {
+    width: 87.25%;
+}
 .case-study_text a {
-    background: #333;
-    text-align: center;
-    padding: 15px 0;
-    border-radius: 2px;
-    box-shadow: 0 0.625rem 2.5rem 0 rgb(0 0 0 / 6%);
-    color: #fff;
-    font-size: 15px;
+    color: #333;
+    padding-right: 25%  !important;
     font-weight: 500;
-    display: block;
-    width: 100%;
-    margin: 30px 0;
-    margin-bottom: 50px;
-    text-transform: uppercase;
-    letter-spacing: .225rem;
+    line-height: 1.75;
 }
 
 /* CASE STUDY */
