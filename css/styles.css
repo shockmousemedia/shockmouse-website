@@ -1031,6 +1031,9 @@ button[type="submit"] {
 /* CONTACT */
 
 /* ABOUT */
+.about-body {
+    background: #f8f8f8;
+}
 .about-hero {
     height: 75vh;
     background-image: url("../images/about-hero.png");
@@ -1052,6 +1055,15 @@ button[type="submit"] {
     color: #013a67;
 }
 
+.about-background_container {
+    background: #fff;
+    box-shadow: 0 1px 16px 0 rgb(0 0 0 / 10%);
+}
+
+.about-container {
+    padding: 0 !important;
+}
+
 .about-main_container {
     display: flex;
     flex-direction: column;
@@ -1064,13 +1076,21 @@ button[type="submit"] {
 
 .about-main img {
     width: 100%;
-    height: 75%;
+}
+
+.about-main_header {
+    padding: 0 15px;
+}
+
+.about-main_header h1 {
+    font-size: 24px;
 }
 
 .about-main_text {
     order: 2;
-    line-height: 2.3rem;
-    padding: 20px 0;
+    line-height: 1.75;
+    padding: 20px 15px;
+    color: #223547;
 }
 
 .partners-content {
@@ -1080,8 +1100,12 @@ button[type="submit"] {
 }
 
 .partner-icon {
-    flex-basis: 50%;
+    flex-basis: 35%;
     padding: 15px 0;
+}
+
+.partner-icon img {
+    max-width: 60px;
 }
 
 .ideas-card {
