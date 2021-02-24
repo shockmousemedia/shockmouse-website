@@ -490,8 +490,14 @@ button[type="submit"] {
 
 .services-secondary_icon {
     position: absolute;
-    top: -8rem;
+    top: -12rem;
     width: 50%;
+}
+
+.services-secondary_icon  {
+    font-size: 136px !important;
+    font-weight: 700;
+    opacity: .05;
 }
 
 .services .service-card_text h3 {
